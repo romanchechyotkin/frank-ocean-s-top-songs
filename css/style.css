@@ -1,1 +1,50 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  background-color: #e7fcec;
+  font-family: 'Permanent Marker', cursive;
+  color: #05250c;
+}
+
+.container {
+  max-width: 800px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  font-family: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+.header {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.header-title {
+  font-size: 48px;
+  line-height: 32px;
+  margin-bottom: 25px;
+}
+
+.header-descr {
+  font-size: 32px;
+  margin-bottom: 75px;
+}
+
+.header .btn {
+  text-transform: uppercase;
+  border: 1px solid #05250c;
+  padding: 15px;
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */
