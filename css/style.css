@@ -13,6 +13,14 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
+  transition: all 0.3;
+  display: inline-block;
+}
+
+a:hover {
+  color: #1bda49;
+  transform: scale(1.2);
 }
 
 button {
@@ -23,6 +31,12 @@ button {
   font-family: inherit;
   color: inherit;
   cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
@@ -46,5 +60,19 @@ button {
   border: 1px solid #05250c;
   padding: 15px;
   font-size: 20px;
+}
+
+.header ul {
+  padding-top: 15px;
+  border: 1px solid #05250c;
+  font-size: 20px;
+}
+
+.header ul li {
+  margin-bottom: 15px;
+}
+
+.hide {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */
